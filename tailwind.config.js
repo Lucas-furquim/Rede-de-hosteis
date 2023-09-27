@@ -8,9 +8,10 @@ module.exports = {
       },
       spacing: {
         tela50: "40%",
-        cem: "27rem",
-        cem1: "30rem",
-        cem2: "43rem",
+        cem: "37%",
+        cem1: "30%",
+        cem2: "42%",
+        cem3: "54%",
       },
     },
   },
