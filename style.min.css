@@ -554,6 +554,42 @@ video {
   top: 40%;
 }
 
+.top-2 {
+  top: 0.5rem;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -566,6 +602,14 @@ video {
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .ml-80 {
@@ -596,6 +640,10 @@ video {
   margin-right: 15rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -608,20 +656,8 @@ video {
   margin-top: 18rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.-mb-40 {
-  margin-bottom: -10rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
+.mr-80 {
+  margin-right: 20rem;
 }
 
 .block {
@@ -652,16 +688,44 @@ video {
   height: 150%;
 }
 
-.h-4 {
-  height: 1rem;
+.h-40 {
+  height: 10rem;
 }
 
 .h-20 {
   height: 5rem;
 }
 
-.max-h-96 {
-  max-height: 24rem;
+.h-32 {
+  height: 8rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.h-9 {
+  height: 2.25rem;
 }
 
 .w-40 {
@@ -672,8 +736,28 @@ video {
   width: 100%;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
+.w-56 {
+  width: 14rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .cursor-pointer {
@@ -682,10 +766,6 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .items-center {
@@ -704,24 +784,20 @@ video {
   gap: 1rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .border-gray-200 {
@@ -791,11 +867,6 @@ video {
   line-height: 1rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -848,6 +919,14 @@ video {
 
 .opacity-80 {
   opacity: 0.8;
+}
+
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .hover\:underline:hover {
